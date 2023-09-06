@@ -891,7 +891,7 @@
             },
             {
                 "t": "regex",
-                "v": "bingbong",
+                "v": "4",
                 "vt": "str",
                 "case": true
             },
