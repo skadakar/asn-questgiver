@@ -2,7 +2,7 @@
     {
         "id": "cfdaac38e6a0b145",
         "type": "tab",
-        "label": "TAK ASN SIDECAR",
+        "label": "ASN Taskmaster",
         "disabled": false,
         "info": "",
         "env": []
@@ -795,7 +795,7 @@
         "id": "bece0024ea691f01",
         "type": "inject",
         "z": "cfdaac38e6a0b145",
-        "name": "CREATE FAKE ASN-Questgiver USER",
+        "name": "CREATE FAKE ASN-Taskmaster USER",
         "props": [
             {
                 "p": "payload"
@@ -918,8 +918,7 @@
                 "aa3a2b3cc3d4b5ec"
             ],
             [
-                "0c8c8b68fbc97819",
-                "4f26753ae4e61bfa"
+                "0c8c8b68fbc97819"
             ],
             [],
             [],
@@ -1020,21 +1019,5 @@
                 "7dac542fdde70908"
             ]
         ]
-    },
-    {
-        "id": "4f26753ae4e61bfa",
-        "type": "debug",
-        "z": "cfdaac38e6a0b145",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1340,
-        "y": 1300,
-        "wires": []
     }
 ]
